@@ -51,7 +51,7 @@ This works because in Reco anything returned gets passed as the parameters for t
 ## Install
 ### Roblox Workflow
 You can get Reco off the Roblox Marketplace here.
-https://www.roblox.com/library/11465670869/Reco
+https://www.roblox.com/library/11821595200/Reco
 
 ### Rojo Workflow
 Get the `.rbxm` file from the releases page. This file can be used to sync to Studio when using Rojo.
