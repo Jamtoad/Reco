@@ -48,5 +48,13 @@ print(combinedTable)
 ```
 This works because in Reco anything returned gets passed as the parameters for the next function call. Allowing you keep track of the changed variables from the previous function call without having to create a variable for them.
 
-## Installation
-Check the Releases section for the raw .lua file or the .rbxm file for use in Roblox. I also have a published version on the Roblox Marketplace that can be found here. https://www.roblox.com/library/11465670869/Reco
+## Install
+### Roblox Workflow
+You can get Reco off the Roblox Marketplace here.
+https://www.roblox.com/library/11465670869/Reco
+
+### Rojo Workflow
+Get the `.rbxm` file from the releases page. This file can be used to sync to Studio when using Rojo.
+
+### Raw Files
+You can find both the `.lua` and the `.rbxm` files here in the releases section.
