@@ -20,7 +20,7 @@ local function iterator(key, value, word)
     print(key, value, word)
 end
 
-Reco.each(testTable, iterator, "RECO!!!")
+Reco(testTable, iterator, "RECO!!!")
 
 --[[
     Prints:
@@ -39,7 +39,7 @@ local function iterator(key, value, combinedTable)
     return combinedTable[key] = value
 end
 
-local combinedTable = Reco.each(testTable, iterator, mergeTable)
+local combinedTable = Reco(testTable, iterator, mergeTable)
 print(combinedTable)
 --[[
     Prints:
