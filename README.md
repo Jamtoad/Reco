@@ -2,11 +2,7 @@
 This is a purely functional recursive alternative to Lua's built in for loop system. It allows you to recursively call a function on every iteration through a table.
 Reco is really strong when used with an immutable data library as it allows you to loop through tables and only return the final result. Without creating variables along the way. See the examples below.
 
-## API
-The API is simple and it has only one function as of now.
-
-`Reco.each(table, function, parameters [optional])`
-
+## Usage
 `each` has 3 parameters, 1 of which is optional. The first parameter is the table that you want to loop through. The second is the function you would like to call upon every iteration. The third are is any number of parameters that you would like to pass on to the function.
 
 NOTE: The function gets called by default with its first two parameters being (key, value). Any passed parameters will be after these.
